@@ -1,0 +1,28 @@
+<idea-plugin>
+    <id>com.andreaepifani.casetoggle</id>
+    <name>Case toggle</name>
+    <version>1.0</version>
+    <vendor email="andyepx@gmail.com" url="http://andreaepifani.com">Andrea Epifani</vendor>
+
+    <description><![CDATA[
+      Toggle between camelCase and hyphen-case
+    ]]></description>
+
+    <!--<change-notes><![CDATA[-->
+      <!--New!-->
+    <!--]]>-->
+    <!--</change-notes>-->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="CaseSwitch" class="CaseSwitch" text="Case switch"
+                description="Toggle selected word between camelCase and hyphen-case">
+            <add-to-group group-id="EditSelectWordGroup" anchor="after" relative-to-action="EditorUnSelectWord"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl meta C"/>
+        </action>
+    </actions>
+</idea-plugin>
