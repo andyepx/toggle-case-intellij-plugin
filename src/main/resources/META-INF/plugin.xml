@@ -1,19 +1,20 @@
 <idea-plugin>
     <id>com.andreaepifani.toggle-case</id>
     <name>Case toggle</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <vendor email="andyepx@gmail.com" url="http://andreaepifani.com">
         Andrea Epifani
     </vendor>
 
     <description><![CDATA[
-      Toggle between camelCase and hyphen-case
+      Toggle between camelCase and kebab-case<br>
+      Keyboard shortcut defaults to CTRL+Meta+C, update it in your keyboard settings.
     ]]></description>
 
-    <!--<change-notes><![CDATA[-->
-      <!--New!-->
-    <!--]]>-->
-    <!--</change-notes>-->
+    <change-notes><![CDATA[
+      Updated description.
+    ]]>
+    </change-notes>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
