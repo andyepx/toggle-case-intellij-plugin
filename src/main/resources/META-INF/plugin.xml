@@ -1,8 +1,10 @@
 <idea-plugin>
-    <id>com.andreaepifani.casetoggle</id>
+    <id>com.andreaepifani.toggle-case</id>
     <name>Case toggle</name>
     <version>1.0</version>
-    <vendor email="andyepx@gmail.com" url="http://andreaepifani.com">Andrea Epifani</vendor>
+    <vendor email="andyepx@gmail.com" url="http://andreaepifani.com">
+        Andrea Epifani
+    </vendor>
 
     <description><![CDATA[
       Toggle between camelCase and hyphen-case
